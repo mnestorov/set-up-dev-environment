@@ -9,7 +9,7 @@ This script **automates the process of setting up a PHP development environment*
 
 ## Installation
 
-1. **Clone this repository to your local machine:** `git clone https://github.com/your-repo-url`
+1. **Clone this repository to your local machine** `git clone https://github.com/mnestorov/set-up-dev-environment`
 2. **Change into the cloned repository directory:** `cd SetUpPhpDevelopmentEnvironment`
 3. **Install the required Python packages:** `pip install gitpython`
 
@@ -17,8 +17,8 @@ This script **automates the process of setting up a PHP development environment*
 
 1. Open the `config.py` file and set the following variables according to your preferences:
 
-- **repo_server_url** - `https://github.com/mnestorov/laravel-docker-web-server` - This is the required package [Docker Web Server for Ubuntu 22.04](https://github.com/mnestorov/laravel-docker-web-server)
-- **repo_project_url** - `https://github.com/mnestorov/laravel-project-container` - This is the required package [Docker Container for Laravel 8+ and PHP 8.0 With Apache Web Server](https://github.com/mnestorov/laravel-project-container)
+- **repo_server_url** - `https://github.com/mnestorov/docker-local-web-server` - This is the required package [Docker Local Web Server](https://github.com/mnestorov/docker-local-web-server)
+- **repo_project_url** - `https://github.com/mnestorov/docker-poject-container` - This is the required package [Docker Project Container with PHP 8+ and Apache](https://github.com/mnestorov/docker-poject-container)
 - **server_clone_path** - '/path/to/custom/location/server_repo'
 - **project_clone_path** - '/path/to/custom/location/project_repo'
 
@@ -32,5 +32,5 @@ This script **automates the process of setting up a PHP development environment*
 
 ## Docker Server and Project Container Repositories
 
-- [Docker Web Server for Ubuntu 22.04](https://github.com/mnestorov/laravel-docker-web-server)
-- [Docker Container for Laravel 8+ and PHP 8.0 With Apache Web Server](https://github.com/mnestorov/laravel-project-container)
+- [Docker Local Web Server](https://github.com/mnestorov/docker-local-web-server)
+- [Docker Project Container with PHP 8+ and Apache](https://github.com/mnestorov/docker-poject-container)
