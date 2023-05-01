@@ -1,6 +1,6 @@
 # Set Up PHP Development Environment
 
-This script automates the process of setting up a PHP development environment. It clones the specified Docker server container and Docker project container repositories, creates a project folder with a name defined by the user, and installs the desired PHP framework in a 'src' (this is required by the Docker project container package) folder within the project directory.
+This script **automates the process of setting up a PHP development environment** and is build with Python. It clones the specified Docker server container and Docker project container repositories, creates a project folder with a name defined by the user, and installs the desired PHP framework in a 'src' (this is required by the Docker project container package) folder within the project directory.
 
 ## Prerequisite
 
