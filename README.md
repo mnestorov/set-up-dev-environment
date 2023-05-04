@@ -37,11 +37,6 @@ Additionally, the script now includes error handling and logging functionality.
 - **Run the script:** `./run_dev_environment.sh`
 - Follow the prompts to set up your PHP development environment.
 
-## New Functionalities
-
-- **Error handling:** The script now includes error handling for better stability.
-- **Logging:** All the important events and errors are logged into a log file named 'app.log' (or any other name specified in config.py), providing useful information for troubleshooting.
-
 ## TODO
 
 - **_Database setup_**: Add support for automatically creating and configuring databases for the chosen framework (MySQL, PostgreSQL, SQLite, etc.).
