@@ -3,12 +3,15 @@ repo_server_url = 'https://github.com/mnestorov/docker-local-web-server'
 repo_project_url = 'https://github.com/mnestorov/docker-poject-container'
 
 # Define the custom paths where the repositories should be cloned
-server_clone_path = '/home/YOUR_USERNAME/WebServer'
-project_clone_path = '/home/YOUR_USERNAME/WebProjects'
+server_clone_path = '/path/to/custom/location/server_repo'
+project_clone_path = '/path/to/custom/location/project_repo'
 
-# Define ANSI escape sequences for color formatting
+# Configure colors for printing messages
 YELLOW = '\033[93m'
 BLUE = '\033[94m'
-GREEN = '\033[32m'
-RED = '\033[31m'
+GREEN = '\033[92m'
+RED = '\033[91m'
 RESET = '\033[0m'
+
+# Log filename
+log_filename = 'app.log'
