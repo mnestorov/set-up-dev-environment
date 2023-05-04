@@ -1,6 +1,12 @@
 # Set Up PHP Development Environment
 
-This script **automates the process of setting up a PHP development environment** and is built with Python. It clones the specified Docker server container and Docker project container repositories, creates a project folder with a name defined by the user, and installs the desired PHP framework in a 'src' (this is required by the Docker project container package) folder within the project directory. Additionally, the script now includes error handling and logging functionality.
+## Overview
+
+This script **automates the process of setting up a PHP development environment** and is built with Python. 
+
+It clones the specified Docker server container and Docker project container repositories, creates a project folder with a name defined by the user, and installs the desired PHP framework in a **src** (this is required by the Docker project container package) folder within the project directory. 
+
+Additionally, the script now includes error handling and logging functionality.
 
 ## Prerequisite
 
@@ -35,6 +41,28 @@ This script **automates the process of setting up a PHP development environment*
 
 - **Error handling:** The script now includes error handling for better stability.
 - **Logging:** All the important events and errors are logged into a log file named 'app.log' (or any other name specified in config.py), providing useful information for troubleshooting.
+
+## TODO
+
+- **_Database setup_**: Add support for automatically creating and configuring databases for the chosen framework (MySQL, PostgreSQL, SQLite, etc.).
+
+- **_Virtual environment setup_**: Integrate the creation and activation of virtual environments (using tools like Docker, Vagrant, or virtualenv) to isolate dependencies and make the development process more consistent across different systems.
+
+- **_Custom configuration_**: Allow users to provide a custom configuration file (e.g., JSON or YAML) to set up their preferred settings, such as repository URLs, clone paths, or database configurations.
+
+- **_Front-end frameworks_**: Add support for popular front-end frameworks such as Vue.js, React, or Angular. The script could install the necessary dependencies and set up a basic template for the chosen framework.
+
+- **_Automated testing setup_**: Integrate testing frameworks like PHPUnit, Behat, or Codeception, and automatically configure them for the chosen PHP framework.
+
+- **_Code linting and formatting_**: Integrate code linters and formatters like PHP_CodeSniffer, PHP-CS-Fixer, or ESLint to enforce coding standards and style guides.
+
+- **_Continuous Integration/Continuous Deployment (CI/CD) setup_**: Add support for configuring CI/CD tools like Jenkins, Travis CI, or GitHub Actions to automate building, testing, and deploying the project.
+
+- **_Git hooks_**: Set up useful Git hooks to automatically run tests, linting, or formatting before committing or pushing code.
+
+- **_Interactive command-line interface (CLI)_**: Enhance the user experience by creating an interactive CLI using a library like Click or argparse, which allows users to navigate through the available options more easily.
+
+- [x] **_Error handling and logging_**: ~~Improve error handling and add logging capabilities to help users identify and resolve issues during the setup process~~.
 
 ## Docker Server and Project Container Repositories
 
