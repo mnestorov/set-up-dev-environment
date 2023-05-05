@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 /path/to/your/script/start.py
+python3 /path/to/your/script/main.py
