@@ -33,8 +33,8 @@ Additionally, the script now includes error handling and logging functionality.
 
 ## Usage
 
-- **Make the bash script executable:** `chmod +x run_dev_environment.sh`
-- **Run the script:** `./run_dev_environment.sh`
+- **Make the bash script executable:** `chmod +x start.sh`
+- **Run the script:** `./start.sh`
 - Follow the prompts to set up your PHP development environment.
 
 ## TODO
