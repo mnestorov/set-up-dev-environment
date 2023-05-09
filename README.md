@@ -1,5 +1,7 @@
 # Set Up PHP Development Environment
 
+[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
+
 ## Overview
 
 This script **automates the process of setting up a PHP development environment** and is built with Python. 
