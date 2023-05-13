@@ -39,7 +39,7 @@ Additionally, the script now includes error handling and logging functionality.
 - **Run the script:** `./start.sh`
 - Follow the prompts to set up your PHP development environment.
 
-## TODO
+## TODOs
 
 - **_Database setup_**: Add support for automatically creating and configuring databases for the chosen framework (MySQL, PostgreSQL, SQLite, etc.).
 
